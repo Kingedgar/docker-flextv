@@ -5,7 +5,7 @@ echo "########################## FLEX TV INSTALLER ###########################"
 if [ ! -d /config/www/.git ]; then
     echo "No repo found, pulling..."
     rm -rf /config/www/*
-	git clone https://github.com/d8ahazard/Phlex /config/www
+	git clone https://github.com/Kingedgar/FlexTV /config/www
 fi
 
 echo "Updating Flex TV..."
