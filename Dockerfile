@@ -1,11 +1,11 @@
 FROM linuxserver/nginx:latest
-MAINTAINER Digitalhigh
+MAINTAINER kingedgar
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 
-LABEL build_version="Digitalhigh version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL build_version="kingedgar version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
 # add local files, set custom NGINX directory
 COPY root /
